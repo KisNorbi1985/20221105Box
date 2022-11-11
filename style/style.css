@@ -53,3 +53,32 @@ h1{
     left: 0;
     right: 0;
 }
+.kep{
+    position: relative;
+}
+.kep span{
+    position: absolute;
+}
+.icon-star{
+    left:5px;
+    top:5px;
+    color: lightgrey;
+}
+.akcio{
+    right:5px;
+    bottom: 5px;
+    background-color: green;
+    color: white;
+    font-size: 0.8rem;
+    padding: 3px 10px;
+    display: inline-block;
+}
+#kedvenc:checked+label span{
+    color: orange;
+}
+#kedvenc{
+    display: none;
+}
+.icon-basket{
+    font-size: 90%;
+}

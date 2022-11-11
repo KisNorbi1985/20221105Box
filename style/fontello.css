@@ -1,24 +1,24 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?48996192');
-  src: url('../font/fontello.eot?48996192#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?48996192') format('woff2'),
-       url('../font/fontello.woff?48996192') format('woff'),
-       url('../font/fontello.ttf?48996192') format('truetype'),
-       url('../font/fontello.svg?48996192#fontello') format('svg');
+  src: url('../font/fontello.eot?43461246');
+  src: url('../font/fontello.eot?43461246#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?43461246') format('woff2'),
+       url('../font/fontello.woff?43461246') format('woff'),
+       url('../font/fontello.ttf?43461246') format('truetype'),
+       url('../font/fontello.svg?43461246#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?48996192#fontello') format('svg');
+    src: url('../font/fontello.svg?43461246#fontello') format('svg');
   }
 }
-*/
+
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -44,7 +44,7 @@
   margin-left: .2em;
 
   /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
+  font-size: 100%;
 
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
@@ -54,5 +54,5 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-star-empty:before { content: '\e800'; } /* '' */
 .icon-basket:before { content: '\e801'; } /* '' */
+.icon-star:before { content: '\e802'; } /* '' */
